@@ -15,7 +15,7 @@ public class submitallHomeworkServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         //跳转到该界面
-        req.getRequestDispatcher("submitHomework.jsp").forward(req, resp);
+        req.getRequestDispatcher("submitallHomework.jsp").forward(req, resp);
     }
 
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws IOException {
